@@ -47,10 +47,10 @@ task/
 ├── src/                      # Código fuente principal
 │   ├── auth/                 # Lógica de autenticación (login, JWT, estrategia)
 │   ├── decorators/           # Decoradores personalizados (como @roles)
-│   ├── guards/               # Guards para proteger rutas (ej.JwtAuthGuard)
+│   ├── guards/               # Guards para proteger rutas (ej. JwtAuthGuard)
 │   ├── rol/                  # Módulo para roles (si es utilizado)
 │   ├── tareas/               # CRUD de tareas
-│   └── usuarios/             # Registro de usuarios
+│   ├── usuarios/             # Registro de usuarios
 │   ├── app.controller.ts     # Controlador raíz
 │   ├── app.module.ts         # Módulo raíz que importa todos los demás módulos
 │   ├── app.service.ts        # Servicio raíz (opcional)
@@ -62,6 +62,7 @@ task/
 ├── package.json              # Configuración del proyecto y dependencias
 ├── tsconfig.json             # Configuración de TypeScript
 └── eslint.config.mjs         # Reglas de ESLint
+
 
 
 ### 📦 Instalación y ejecución
