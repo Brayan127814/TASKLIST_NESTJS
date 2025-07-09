@@ -11,6 +11,7 @@ export class Rol {
     roleName: string
 
     @Column({ type: 'varchar', length: 100 })
+    
     descripcion: string
 
     @OneToMany(() => Usuario, (user) => user.rol)
