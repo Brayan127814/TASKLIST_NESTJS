@@ -18,6 +18,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
         secret: configService.get<string>('SECRETKEY'),
         signOptions: { expiresIn: '1h' },
       }),
+      
     }),
   ],
   controllers: [AuthController],
