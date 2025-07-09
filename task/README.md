@@ -40,30 +40,30 @@ Este proyecto es una API RESTful desarrollada con **NestJS** y **TypeScript** qu
 ---
 
 ### Estructura del proyecto
-task/
-│
-├── dist/                     # Archivos compilados (generados por TypeScript)
-├── node_modules/             # Dependencias del proyecto
-├── src/                      # Código fuente principal
-│   ├── auth/                 # Lógica de autenticación (login, JWT, estrategia)
-│   ├── decorators/           # Decoradores personalizados (como @roles)
-│   ├── guards/               # Guards para proteger rutas (ej. JwtAuthGuard)
-│   ├── rol/                  # Módulo para roles (si es utilizado)
-│   ├── tareas/               # CRUD de tareas
-│   ├── usuarios/             # Registro de usuarios
-│   ├── app.controller.ts     # Controlador raíz
-│   ├── app.module.ts         # Módulo raíz que importa todos los demás módulos
-│   ├── app.service.ts        # Servicio raíz (opcional)
-│   └── main.ts               # Punto de entrada de la aplicación
-│
-├── test/                     # Pruebas unitarias
-├── .env                      # Variables de entorno (secretos, config DB)
-├── README.md                 # Documentación del proyecto
-├── package.json              # Configuración del proyecto y dependencias
-├── tsconfig.json             # Configuración de TypeScript
-└── eslint.config.mjs         # Reglas de ESLint
+
+task/  
+├── dist/                   # Archivos compilados (generados por TypeScript)  
+├── node_modules/           # Dependencias del proyecto  
+├── src/                    # Código fuente principal  
+│   ├── auth/               # Lógica de autenticación (login, JWT, estrategia)  
+│   ├── decorators/         # Decoradores personalizados (como @roles)  
+│   ├── guards/             # Guards para proteger rutas (ej. JwtAuthGuard)  
+│   ├── rol/                # Módulo para roles (si es utilizado)  
+│   ├── tareas/             # CRUD de tareas  
+│   ├── usuarios/           # Registro de usuarios  
+│   ├── app.controller.ts   # Controlador raíz  
+│   ├── app.module.ts       # Módulo raíz que importa todos los demás módulos  
+│   ├── app.service.ts      # Servicio raíz (opcional)  
+│   └── main.ts             # Punto de entrada de la aplicación  
+├── test/                   # Pruebas unitarias  
+├── .env                    # Variables de entorno (secretos, config DB)  
+├── README.md               # Documentación del proyecto  
+├── package.json            # Configuración del proyecto y dependencias  
+├── tsconfig.json           # Configuración de TypeScript  
+└── eslint.config.mjs       # Reglas de ESLint  
 
 
+---
 
 ### 📦 Instalación y ejecución
 
